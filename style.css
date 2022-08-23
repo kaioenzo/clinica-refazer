@@ -1,0 +1,566 @@
+body {
+    background-color: #ece9e9;
+}
+
+cite {
+    color: #c7c7c7;
+}
+
+a {
+    text-decoration: none;
+}
+
+#main_nav li {
+    padding: 0 15px;
+}
+
+nav {
+    background-color: #ffffff;
+}
+
+.nav-link {
+    color: #000000 !important;
+}
+
+.nav-link:hover {
+    color: #649ac9 !important;
+}
+
+.btn-call {
+    position: relative;
+    text-decoration: none;
+    font-size: 1.5rem;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.btn-call:hover {
+    bottom: 3px;
+}
+
+.btn-call:active {
+    bottom: 3px;
+}
+
+.text-justify {
+    text-align: justify;
+}
+
+#banner {
+    background-image: url('img/Celular.png');
+    background-position: center top;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 50vh;
+
+}
+
+#banner h3 {
+    font-size: 1.8rem;
+    padding-top: 15px;
+}
+
+#banner p {
+    font-size: .9rem;
+}
+
+.btn-banner {
+    display: none;
+    background-color: #54a3e9;
+    color: #ffffff;
+
+}
+
+.btn-banner:hover {
+    background-color: #6061D6;
+    color: #ffffff;
+
+}
+
+.btn-bannera:active {
+    background-color: #5153b8;
+
+}
+
+#banner-secundario {
+    margin-top: -2.5rem;
+}
+
+#banner-secundario h3 {
+    font-size: 3rem;
+    line-height: 1.2;
+
+}
+
+#banner-secundario p {
+    font-size: 2rem;
+    line-height: 1.3;
+}
+
+#banner-secundario a {
+    display: none;
+}
+
+#banner-consulta {
+    background-color: #5db3ff;
+    color: rgb(255, 255, 255);
+    background-image: url('img/Prancheta.png');
+    background-position: center;
+}
+
+#banner-consulta a {
+    background-color: #6061D6;
+    color: #ffffff;
+    margin-top: 40px;
+
+}
+
+.card-especialidades {
+    padding: 150px 20px 10px 20px;
+
+}
+
+.btn-especialidades {
+    border: 1px solid #6061D6;
+    color: #000000;
+    font-size: 1rem;
+    margin: 0 auto;
+
+}
+
+.btn-especialidades:hover {
+    background-color: #5153b8;
+    border: 1px solid #5153b8;
+    color: #ffffff;
+
+}
+
+#fisioterapia,
+#avaliacao-psicologica,
+#nutricionista {
+    position: relative;
+}
+
+#fisioterapia:hover,
+#avaliacao-psicologica:hover,
+#nutricionista:hover {
+    bottom: 3px;
+    cursor: pointer;
+}
+
+#fisioterapia {
+    background-image:
+        linear-gradient(rgba(0, 0, 0, 0.521), rgba(0, 0, 0, 0.342)),
+        url('img/appointment-at-psychologist.jpg');
+    background-position: center;
+
+    background-size: cover;
+
+}
+
+#avaliacao-psicologica {
+    background-image:
+        linear-gradient(rgba(0, 0, 0, 0.521), rgba(0, 0, 0, 0.342)),
+        url('img/psychologist-writing-in-his-notebook.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+
+    background-size: cover;
+
+}
+
+#nutricionista {
+    background-image:
+        linear-gradient(rgba(0, 0, 0, 0.521), rgba(0, 0, 0, 0.342)),
+        url('img/close-up-of-fresh-fruits-in-dietician-s-clinic.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+
+    background-size: cover;
+
+}
+
+#botoes-contato {
+    font-size: 3rem;
+    padding: 10px 0;
+    margin: 0 0;
+    position: fixed;
+    left: 80vw;
+    bottom: 1vh;
+
+}
+
+#botoes-contato a:hover {
+    width: 105%;
+}
+
+footer ul {
+    padding: 0;
+}
+
+footer ul li {
+    list-style: none;
+}
+
+footer a {
+    text-decoration: none;
+    color: #2f2a35;
+
+}
+
+footer a:hover {
+    transition-duration: 1.2s;
+    margin-left: 5px;
+    color: #7E7670;
+
+}
+
+footer #call-footer {
+    background-color: #00661a;
+    padding: 25px 35px;
+    position: relative;
+}
+
+footer #call-footer:hover {
+    bottom: 5px;
+}
+
+footer #call-footer a {
+    padding: 10px 20px;
+    color: #ffffff;
+    background-color: rgb(41, 41, 41);
+    font-size: 1rem;
+    border-radius: 0;
+
+}
+
+footer #call-footer a:hover {
+    background: #7E7670;
+
+
+}
+
+/* GERAL */
+.banner-intro {
+    height: 25vh;
+    padding: 50px 0 0 0;
+}
+
+.info-container-2 {
+    background-color: #262626;
+    padding: 150px 28px !important;
+    color: #ffffff;
+
+}
+
+.barra-texto {
+    margin-bottom: 10px;
+    width: 70px;
+    height: 3px;
+    background: linear-gradient(to right, #2f9bea 0%, #75ceae 100%);
+}
+
+/* FIM GERAL */
+
+
+/* SOBRE */
+.sobre {
+    background-image: url('img/Sobre_nos_imagem.png');
+    background-position: center bottom;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.fieldset-border {
+    border: 1px solid rgb(112, 112, 112) !important;
+    padding: 0 12px !important;
+    margin: 10px;
+    height: 260px;
+    border-radius: 10px;
+    position: relative;
+
+}
+
+.fieldset-border .legend-border {
+    font-size: 1.2em !important;
+    text-align: center !important;
+    width: auto !important;
+    padding: 0 10px !important;
+    border-bottom: none !important;
+    float: none !important;
+}
+
+.fieldset-border:hover {
+    bottom: 3px;
+    border: 2px solid rgb(112, 112, 112) !important;
+}
+
+
+/* FIM SOBRE */
+
+
+/* PLANTÃO PSICOLÓGICO */
+.plantao-info-img {
+    height: 400px;
+    background-image: url('img/plantao_psicologico_2.webp');
+    background-size: cover;
+
+}
+/* FIM PLANTÃO PSICOLÓGICO */
+
+
+/* PSICOTERAPIA */
+.psicoterapia-info-img{
+    height: 400px;
+    background-image: url('img/terapia_2.webp');
+    background-size: cover;
+    position: relative;
+}
+.psicoterapia-info-img:hover{
+    bottom: 2px;
+    -webkit-box-shadow: 0px 0px 22px 3px rgba(0,0,0,0.6);
+    box-shadow: 0px 0px 22px 3px rgba(0,0,0,0.6);
+    transition: 1s;
+}
+/* FIM PSICOTERAPIA */
+
+
+/* AUTISMO */
+.autismo-info{
+    height: 400px;
+    background-image: url('img/autismo_2.webp');
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: center ;
+    position: relative;
+}
+.autismo-info:hover{
+bottom: 2px;
+-webkit-box-shadow: 0px 0px 22px 3px rgba(0,0,0,0.6);
+box-shadow: 0px 0px 22px 3px rgba(0,0,0,0.6);
+transition: 1s;
+}
+/* FIM AUTISMO */
+
+
+/* AVALIAÇÃO PSICOLÓGICA */
+.avaliacao-psicologica-info{
+    height: 400px;
+    background-image: url('img/avaliacao-psicologica_2.webp');
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: center ;
+    position: relative;
+}
+.avaliacao-psicologica-info:hover{
+bottom: 2px;
+-webkit-box-shadow: 0px 0px 22px 3px rgba(0,0,0,0.6);
+box-shadow: 0px 0px 22px 3px rgba(0,0,0,0.6);
+transition: 1s;
+}
+/* FIM AVALIAÇÃO PSICOLÓGICA */
+
+/* AVALIAÇÃO NEUROPSICOLÓGICA */
+.avaliacao-neuropsicologica-info{
+    height: 400px;
+    background-image: url('img/avaliacao-neuropsicologica_2.webp');
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: center ;
+    position: relative;
+}
+.avaliacao-neuropsicologica-info:hover{
+bottom: 2px;
+-webkit-box-shadow: 0px 0px 22px 3px rgba(0,0,0,0.6);
+box-shadow: 0px 0px 22px 3px rgba(0,0,0,0.6);
+transition: 1s;
+}
+/* FIM AVALIAÇÃO NEUROPSICOLÓGICA */
+
+/* AVALIAÇÃO NEUROPSICOLÓGICA */
+.reabilitacao-cognitiva-info{
+    height: 400px;
+    background-image: url('img/reabilitacao-cognitiva_2.webp');
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: center ;
+    position: relative;
+}
+.reabilitacao-cognitiva-info:hover{
+bottom: 2px;
+-webkit-box-shadow: 0px 0px 22px 3px rgba(0,0,0,0.6);
+box-shadow: 0px 0px 22px 3px rgba(0,0,0,0.6);
+transition: 1s;
+}
+/* FIM AVALIAÇÃO NEUROPSICOLÓGICA */
+
+/* NUTRIÇÃO*/
+.nutricao-info{
+    height: 400px;
+    background-image: url('img/reabilitacao-cognitiva_2.webp');
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: center ;
+    position: relative;
+}
+.nutricao-info:hover{
+bottom: 2px;
+-webkit-box-shadow: 0px 0px 22px 3px rgba(0,0,0,0.6);
+box-shadow: 0px 0px 22px 3px rgba(0,0,0,0.6);
+transition: 1s;
+}
+
+/* FIM NUTRIÇÃO */
+
+
+@media all and (min-width:370px) and (max-width:530px) {
+    #banner p {
+        font-size: 1.3rem;
+    }
+
+    #botoes-contato {
+        left: 84vw;
+    }
+}
+
+@media all and (min-width:530px) and (max-width:5760px) {
+    #botoes-contato {
+        left: 88vw;
+    }
+}
+
+@media all and (max-width:576px) {
+    #banner-secundario a {
+        display: inline-block;
+    }
+
+}
+
+@media all and (min-width:576px) {
+    #banner {
+        background-image: url('img/Tablet.png');
+        height: 70vh;
+        background-position: top;
+        -webkit-box-shadow: 0px 10px 45px -4px rgba(158, 158, 158, 0.86);
+        -moz-box-shadow: 0px 10px 45px -4px rgba(158, 158, 158, 0.86);
+        box-shadow: 0px 10px 45px -4px rgba(158, 158, 158, 0.86);
+    }
+
+    #banner h3 {
+        font-size: 3rem;
+        padding: 30px 0 0 50px;
+    }
+
+    #banner p {
+        font-size: 2rem;
+    }
+
+    #banner a {
+        margin: 0 50px;
+        font-size: 2rem;
+        display: inline-block;
+
+    }
+
+    #banner-secundario a {
+        display: none;
+    }
+
+    .card-especialidades {
+        padding: 180px 20px 10px 20px;
+    }
+
+    #botoes-contato {
+        left: 90vw;
+        bottom: 3vh;
+    }
+
+    #botoes-contato img {
+        width: 70px;
+    }
+
+
+}
+
+
+@media all and (min-width: 992px) {
+    .navbar .nav-item .dropdown-menu {
+        display: none;
+
+    }
+
+    .navbar .nav-item:hover .dropdown-menu {
+        display: block;
+    }
+
+    .navbar .nav-item .dropdown-menu {
+        margin-top: 0;
+    }
+
+
+
+    #nav-contato {
+        border: 1px solid #649ac9;
+        border-radius: 5px;
+        transition: .5s;
+
+    }
+
+    #nav-contato:hover {
+        color: #ffffff !important;
+        background-color: #49a2f0;
+
+    }
+
+    #banner {
+        background-position: center;
+    }
+
+    #banner a {
+        margin: 20px 0 0 50px;
+        display: inline-block;
+        font-size: 1.5rem;
+    }
+
+    #banner h3 {
+        font-size: 2.5rem;
+        padding: 30px 0 0 50px;
+    }
+
+    #banner p {
+        font-size: 1.5rem;
+    }
+
+    #botoes-contato {
+        left: 91vw;
+        bottom: 1vh;
+    }
+
+    .fieldset-border {
+        height: 300px;
+    }
+
+    .banner-intro {
+        height: 45vh;
+    }
+
+}
+
+@media all and (min-width:1200px) {
+    #banner {
+        background-image: url('img/Tablet.png');
+        height: 90vh;
+
+    }
+
+    #banner h3 {
+        font-size: 2.5rem;
+        padding: 50px 0 0 50px;
+    }
+
+    #botoes-contato {
+        left: 93vw;
+        bottom: 1vh;
+    }
+
+}
