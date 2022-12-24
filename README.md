@@ -7,10 +7,10 @@ Site institucional da Clínica Refazer. Feito com HTML, CSS, BOOTSTRAP. Com foco
 
 | Cor               | Hexadecimal                                                |
 | ----------------- | ---------------------------------------------------------------- |
-| Principal     | ![#649ac9](https://via.placeholder.com/10/649ac9?text=+) `#649ac9` |
-| Secundária      | ![#79a7cf](https://via.placeholder.com/10/79a7cf?text=+) `#79a7cf` |
-| Títulos       | ![#28286a](https://via.placeholder.com/10/28286a?text=+) #28286a |
-| Botões      | ![#6061D6](https://via.placeholder.com/10/6061D6?text=+) #6061D6 |
+| Principal     | ![#649ac9](https://raw.githubusercontent.com/kaioenzo/clinica-refazer/b282edf3ea76fe512a993623af2a3b89cd89ccf1/img/28286a.png) #649ac9 |
+| Secundária      | ![#79a7cf](https://raw.githubusercontent.com/kaioenzo/clinica-refazer/b282edf3ea76fe512a993623af2a3b89cd89ccf1/img/6061D6.png) #79a7cf |
+| Títulos       | ![#28286a](https://raw.githubusercontent.com/kaioenzo/clinica-refazer/b282edf3ea76fe512a993623af2a3b89cd89ccf1/img/649ac9.png) #28286a |
+| Botões      | ![#6061D6](https://raw.githubusercontent.com/kaioenzo/clinica-refazer/b282edf3ea76fe512a993623af2a3b89cd89ccf1/img/79a7cf.png) #6061D6 |
 
 
 ## Screenshots
