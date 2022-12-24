@@ -1,287 +1,290 @@
 body {
-    background-color: #f7f7f7
+  background-color: #f7f7f7;
 }
 
 #main_nav li {
-    padding: 0 15px
+  padding: 0 15px;
 }
 
 .nav-link {
-    color: #000 !important
+  color: #000 !important;
 }
 
 .nav-link:hover {
-    color: #649ac9 !important
+  color: #649ac9 !important;
 }
 
 .btn-call {
-    position: relative;
-    text-decoration: none;
-    font-size: 1.5rem;
-    padding: 10px;
-    border-radius: 5px
+  position: relative;
+  text-decoration: none;
+  font-size: 1.5rem;
+  padding: 10px;
+  border-radius: 5px;
 }
 
 .btn-call:hover {
-    bottom: 3px
+  bottom: 3px;
 }
 
 .btn-call:active {
-    bottom: 3px
+  bottom: 3px;
 }
 
 #banner {
-    background-image: url('img/Celular.png');
-    background-position: center top;
-    background-size: cover;
-    background-repeat: no-repeat;
-    height: 50vh
+  background-image: url('img/Celular.png');
+  background-position: center top;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 50vh;
 }
 
 #banner h3 {
-    font-size: 1.8rem;
-    padding-top: 15px
+  font-size: 1.8rem;
+  padding-top: 15px;
 }
 
 #banner p {
-    font-size: .9rem
+  font-size: 0.9rem;
 }
 
 .btn-banner {
-    display: none;
-    background-color: #54a3e9;
-    color: #fff
+  display: none;
+  background-color: #54a3e9;
+  color: #fff;
 }
 
 .btn-banner:hover {
-    background-color: #6061d6;
-    color: #fff
+  background-color: #6061d6;
+  color: #fff;
 }
 
 .btn-bannera:active {
-    background-color: #5153b8
+  background-color: #5153b8;
 }
 
 #banner-secundario {
-    margin-top: -2.5rem
+  margin-top: -2.5rem;
 }
 
 #banner-secundario h3 {
-    font-size: 3rem;
-    line-height: 1.2
+  font-size: 3rem;
+  line-height: 1.2;
 }
 
 #banner-secundario p {
-    font-size: 2rem;
-    line-height: 1.3
+  font-size: 2rem;
+  line-height: 1.3;
 }
 
 #banner-secundario a {
-    display: none
+  display: none;
 }
 
 #banner-consulta {
-    background-color: #5db3ff;
-    color: #fff;
-    background-image: url('img/Prancheta.png');
-    background-position: center
+  background-color: #5db3ff;
+  color: #fff;
+  background-image: url('img/Prancheta.png');
+  background-position: center;
 }
 
 #banner-consulta a {
-    background-color: #6061d6;
-    color: #fff;
-    margin-top: 40px
+  background-color: #6061d6;
+  color: #fff;
+  margin-top: 40px;
 }
 
 .card-especialidades {
-    padding: 150px 20px 10px 20px
+  padding: 150px 20px 10px 20px;
 }
 
 #btn-especialidades {
-    border: 1px solid #6061d6;
-    color: #000;
-    font-size: 1rem
+  border: 1px solid #6061d6;
+  color: #000;
+  font-size: 1rem;
 }
 
 #btn-especialidades:hover {
-    background-color: #5153b8;
-    border: 1px solid #5153b8;
-    color: #fff
+  background-color: #5153b8;
+  border: 1px solid #5153b8;
+  color: #fff;
 }
 
 #avaliacao-psicologica,
 #fisioterapia,
 #nutricionista {
-    position: relative
+  position: relative;
 }
 
 #avaliacao-psicologica:hover,
 #fisioterapia:hover,
 #nutricionista:hover {
-    bottom: 3px;
-    cursor: pointer
+  bottom: 3px;
+  cursor: pointer;
 }
 
 #fisioterapia {
-    background-image: linear-gradient(rgba(0, 0, 0, .521), rgba(0, 0, 0, .342)), url('img/appointment-at-psychologist.jpg');
-    background-position: center;
-    background-size: cover
+  background-image: linear-gradient(rgba(0, 0, 0, 0.521), rgba(0, 0, 0, 0.342)),
+    url('img/appointment-at-psychologist.jpg');
+  background-position: center;
+  background-size: cover;
 }
 
 #avaliacao-psicologica {
-    background-image: linear-gradient(rgba(0, 0, 0, .521), rgba(0, 0, 0, .342)), url('img/psychologist-writing-in-his-notebook.jpg');
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover
+  background-image: linear-gradient(rgba(0, 0, 0, 0.521), rgba(0, 0, 0, 0.342)),
+    url('img/psychologist-writing-in-his-notebook.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 #nutricionista {
-    background-image: linear-gradient(rgba(0, 0, 0, .521), rgba(0, 0, 0, .342)), url('img/close-up-of-fresh-fruits-in-dietician-s-clinic.jpg');
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover
+  background-image: linear-gradient(rgba(0, 0, 0, 0.521), rgba(0, 0, 0, 0.342)),
+    url('img/close-up-of-fresh-fruits-in-dietician-s-clinic.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 #botoes-contato {
-    font-size: 3rem;
-    padding: 10px 0;
-    margin: 0 0;
-    position: fixed;
-    left: 80vw;
-    bottom: 41vh
+  font-size: 3rem;
+  padding: 10px 0;
+  margin: 0 0;
+  position: fixed;
+  left: 80vw;
+  bottom: 41vh;
 }
 
 #botoes-contato a:hover {
-    width: 105%
+  width: 105%;
 }
 
-@media all and (min-width:370px) and (max-width:530px) {
-    #banner p {
-        font-size: 1.3rem
-    }
+@media all and (min-width: 370px) and (max-width: 530px) {
+  #banner p {
+    font-size: 1.3rem;
+  }
 
-    #botoes-contato {
-        left: 84vw
-    }
+  #botoes-contato {
+    left: 84vw;
+  }
 }
 
-@media all and (min-width:530px) and (max-width:5760px) {
-    #botoes-contato {
-        left: 88vw
-    }
+@media all and (min-width: 530px) and (max-width: 5760px) {
+  #botoes-contato {
+    left: 88vw;
+  }
 }
 
-@media all and (max-width:576px) {
-    #banner-secundario a {
-        display: inline-block
-    }
+@media all and (max-width: 576px) {
+  #banner-secundario a {
+    display: inline-block;
+  }
 }
 
-@media all and (min-width:576px) {
-    #banner {
-        background-image: url('img/Tablet.png');
-        height: 70vh;
-        background-position: top;
-        -webkit-box-shadow: 0 10px 45px -4px rgba(158, 158, 158, .86);
-        -moz-box-shadow: 0 10px 45px -4px rgba(158, 158, 158, .86);
-        box-shadow: 0 10px 45px -4px rgba(158, 158, 158, .86)
-    }
+@media all and (min-width: 576px) {
+  #banner {
+    background-image: url('img/Tablet.png');
+    height: 70vh;
+    background-position: top;
+    -webkit-box-shadow: 0 10px 45px -4px rgba(158, 158, 158, 0.86);
+    -moz-box-shadow: 0 10px 45px -4px rgba(158, 158, 158, 0.86);
+    box-shadow: 0 10px 45px -4px rgba(158, 158, 158, 0.86);
+  }
 
-    #banner h3 {
-        font-size: 3rem;
-        padding: 30px 0 0 50px
-    }
+  #banner h3 {
+    font-size: 3rem;
+    padding: 30px 0 0 50px;
+  }
 
-    #banner p {
-        font-size: 2rem
-    }
+  #banner p {
+    font-size: 2rem;
+  }
 
-    #banner a {
-        margin: 0 50px;
-        font-size: 2rem;
-        display: inline-block
-    }
+  #banner a {
+    margin: 0 50px;
+    font-size: 2rem;
+    display: inline-block;
+  }
 
-    #banner-secundario a {
-        display: none
-    }
+  #banner-secundario a {
+    display: none;
+  }
 
-    .card-especialidades {
-        padding: 180px 20px 10px 20px
-    }
+  .card-especialidades {
+    padding: 180px 20px 10px 20px;
+  }
 
-    #botoes-contato {
-        left: 90vw;
-        bottom: 45vh
-    }
+  #botoes-contato {
+    left: 90vw;
+    bottom: 45vh;
+  }
 
-    #botoes-contato img {
-        width: 70px
-    }
+  #botoes-contato img {
+    width: 70px;
+  }
 }
 
-@media all and (min-width:992px) {
-    .navbar .nav-item .dropdown-menu {
-        display: none
-    }
+@media all and (min-width: 992px) {
+  .navbar .nav-item .dropdown-menu {
+    display: none;
+  }
 
-    .navbar .nav-item:hover .dropdown-menu {
-        display: block
-    }
+  .navbar .nav-item:hover .dropdown-menu {
+    display: block;
+  }
 
-    .navbar .nav-item .dropdown-menu {
-        margin-top: 0
-    }
+  .navbar .nav-item .dropdown-menu {
+    margin-top: 0;
+  }
 
-    #nav-contato {
-        border: 1px solid #649ac9;
-        border-radius: 5px;
-        transition: .5s
-    }
+  #nav-contato {
+    border: 1px solid #649ac9;
+    border-radius: 5px;
+    transition: 0.5s;
+  }
 
-    #nav-contato:hover {
-        color: #fff !important;
-        background-color: #79a7cf
-    }
+  #nav-contato:hover {
+    color: #fff !important;
+    background-color: #79a7cf;
+  }
 
-    #banner {
-        background-position: center
-    }
+  #banner {
+    background-position: center;
+  }
 
-    #banner a {
-        margin: 20px 0 0 50px;
-        display: inline-block;
-        font-size: 1.5rem
-    }
+  #banner a {
+    margin: 20px 0 0 50px;
+    display: inline-block;
+    font-size: 1.5rem;
+  }
 
-    #banner h3 {
-        font-size: 2.5rem;
-        padding: 30px 0 0 50px
-    }
+  #banner h3 {
+    font-size: 2.5rem;
+    padding: 30px 0 0 50px;
+  }
 
-    #banner p {
-        font-size: 1.5rem
-    }
+  #banner p {
+    font-size: 1.5rem;
+  }
 
-    #botoes-contato {
-        left: 91vw;
-        bottom: 25vh
-    }
+  #botoes-contato {
+    left: 91vw;
+    bottom: 25vh;
+  }
 }
 
-@media all and (min-width:1200px) {
-    #banner {
-        background-image: url('img/Tablet.png');
-        height: 90vh
-    }
+@media all and (min-width: 1200px) {
+  #banner {
+    background-image: url('img/Tablet.png');
+    height: 90vh;
+  }
 
-    #banner h3 {
-        font-size: 2.5rem;
-        padding: 50px 0 0 50px
-    }
+  #banner h3 {
+    font-size: 2.5rem;
+    padding: 50px 0 0 50px;
+  }
 
-    #botoes-contato {
-        left: 93vw;
-        bottom: 25vh
-    }
+  #botoes-contato {
+    left: 93vw;
+    bottom: 25vh;
+  }
 }

@@ -1,246 +1,377 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Clínica Refazer - Sobre</title>
     <!-- Css -->
-    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="../style.css" />
     <!-- Bootstrap 5 -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
     <!-- Icons -->
-    <script src="https://kit.fontawesome.com/0258b956ad.js" crossorigin="anonymous"></script>
+    <script
+      src="https://kit.fontawesome.com/0258b956ad.js"
+      crossorigin="anonymous"
+    ></script>
     <!-- Animate CSS -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
-</head>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+  </head>
 
-<body>
+  <body>
     <header>
+      <nav class="navbar navbar-expand-lg navbar-light bg-white px-md-5">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index.html"
+            ><img
+              src="https://clinicarefazer.com.br/upload/refazer-black.svg"
+              width="100px"
+              alt=""
+          /></a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#main_nav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div
+            class="collapse navbar-collapse justify-content-end"
+            id="main_nav"
+          >
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" href="../index.html">Home </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../sobre.html">Sobre nós </a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown" href="#" data-bs-toggle="dropdown">
+                  Psicologia <i class="fa-solid fa-angle-down"></i
+                ></a>
+                <ul class="dropdown-menu">
+                  <li>
+                    <a
+                      class="dropdown-item"
+                      href="../psicologia/plantao_psicologico.html"
+                    >
+                      Plantão Psicológico</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      class="dropdown-item"
+                      href="../psicologia/psicoterapia.html"
+                      >Psicoterapia</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="../psicologia/autismo.html">
+                      Autismo
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      class="dropdown-item"
+                      href="../psicologia/avaliacao_psicologica.html"
+                    >
+                      Avaliação Psicológica
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      class="dropdown-item"
+                      href="../psicologia/avaliacao_neuropsicologica.html"
+                    >
+                      Avaliação Neuropsicológica
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      class="dropdown-item"
+                      href="../psicologia/reabilitacao_cognitiva.html"
+                    >
+                      Reabilitação Cognitiva
+                    </a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="../especialidades.html">
+                      Todas as especialidades
+                    </a>
+                  </li>
+                </ul>
+              </li>
 
-        <nav class="navbar navbar-expand-lg navbar-light bg-white px-md-5">
-            <div class="container-fluid">
-                <a class="navbar-brand" href="index.html"><img
-                        src="https://clinicarefazer.com.br/upload/refazer-black.svg" width="100px" alt=""></a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#main_nav"
-                    aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse justify-content-end" id="main_nav">
-                    <ul class="navbar-nav">
-                        <li class="nav-item "> <a class="nav-link" href="../index.html">Home </a> </li>
-                        <li class="nav-item "> <a class="nav-link" href="../sobre.html">Sobre nós </a> </li>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown" href="#" data-bs-toggle="dropdown"> Psicologia <i
-                                    class="fa-solid fa-angle-down"></i></a>
-                            <ul class="dropdown-menu">
-                                <li><a class="dropdown-item" href="../psicologia/plantao_psicologico.html"> Plantão
-                                        Psicológico</a></li>
-                                <li><a class="dropdown-item" href="../psicologia/psicoterapia.html">Psicoterapia</a>
-                                </li>
-                                <li><a class="dropdown-item" href="../psicologia/autismo.html"> Autismo </a></li>
-                                <li><a class="dropdown-item" href="../psicologia/avaliacao_psicologica.html"> Avaliação
-                                        Psicológica </a></li>
-                                <li><a class="dropdown-item" href="../psicologia/avaliacao_neuropsicologica.html">
-                                        Avaliação Neuropsicológica </a></li>
-                                <li><a class="dropdown-item" href="../psicologia/reabilitacao_cognitiva.html">
-                                        Reabilitação Cognitiva </a></li>
-                                <li><a class="dropdown-item" href="../especialidades.html"> Todas as especialidades </a>
-                                </li>
-                            </ul>
-                        </li>
-
-                        <li class="nav-item dropdown">
-                            <a class="nav-link active dropdown" href="#" data-bs-toggle="dropdown"> Demais
-                                especialidades
-                                <i class="fa-solid fa-angle-down"></i></a>
-                            <ul class="dropdown-menu">
-                                <li><a class="dropdown-item" href="nutricao.html">Nutrição </a></li>
-                                <li><a class="dropdown-item" href="psiquiatria.html"> Psiquiatria </a></li>
-                                <li><a class="dropdown-item" href="fonoaudiologia.html"> Fonoaudiologia </a></li>
-                                <li><a class="dropdown-item" href="fisioterapia.html"> Fisioterapia </a></li>
-                                <li><a class="dropdown-item" href="cuidados_paliativos.html"> Cuidados Paliativos </a>
-                                </li>
-                                <li><a class="dropdown-item" href="acompanhamento_terapeutico.html"> Acompanhamento
-                                        Terapêutico </a></li>
-                                <li><a class="dropdown-item" href="../especialidades.html.html"> Todas as especialidades
-                                    </a></li>
-                            </ul>
-                        </li>
-                        <li class="nav-item"><a class="nav-link" id="nav-contato" href="#">Entre em contato</a></li>
-                    </ul>
-
-                </div> <!-- navbar-collapse.// -->
-            </div> <!-- container-fluid.// -->
-        </nav>
-
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link active dropdown"
+                  href="#"
+                  data-bs-toggle="dropdown"
+                >
+                  Demais especialidades <i class="fa-solid fa-angle-down"></i
+                ></a>
+                <ul class="dropdown-menu">
+                  <li>
+                    <a class="dropdown-item" href="nutricao.html">Nutrição </a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="psiquiatria.html">
+                      Psiquiatria
+                    </a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="fonoaudiologia.html">
+                      Fonoaudiologia
+                    </a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="fisioterapia.html">
+                      Fisioterapia
+                    </a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="cuidados_paliativos.html">
+                      Cuidados Paliativos
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      class="dropdown-item"
+                      href="acompanhamento_terapeutico.html"
+                    >
+                      Acompanhamento Terapêutico
+                    </a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="../especialidades.html.html">
+                      Todas as especialidades
+                    </a>
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" id="nav-contato" href="#"
+                  >Entre em contato</a
+                >
+              </li>
+            </ul>
+          </div>
+          <!-- navbar-collapse.// -->
+        </div>
+        <!-- container-fluid.// -->
+      </nav>
     </header>
 
     <main>
-        <section>
-            <div id="" class="container-fluid text-white banner-intro sobre">
-                <div class="row">
-                    <div class="col-lg-12 col-sm-12 text-center">
-                        <h3 class="fs-1 ">Nutrição</h3>
-
-                    </div>
-                </div>
+      <section>
+        <div id="" class="container-fluid text-white banner-intro sobre">
+          <div class="row">
+            <div class="col-lg-12 col-sm-12 text-center">
+              <h3 class="fs-1">Nutrição</h3>
             </div>
-        </section>
-        <section>
-            <div class="container mt-4">
-                <div class="row text-justify">
-                    <header>
-                        <h5 class="fs-2">Nutrição</h5>
-                        <div class="barra-texto"></div>
-                    </header>
-                    <div class="col-12 col-sm-7 ">
-
-                            <p class="fs-5">O nutricionista estabelece um plano de alimentação conforme as necessidades
-                                do paciente que, muitas vezes vivencia um adoecimento crônico ou uma condição física de
-                                aumento ou diminuição significativa de peso. É ele quem vai estabelecer um plano
-                                dietético que forneça os nutrientes necessários para um funcionamento pleno do corpo.
-                                Uma dieta rica e balanceada pode auxiliar o equilíbrio hormonal, o metabolismo, a
-                                recuperação e estabilização de algumas funções neurológicas importantes, fatores que
-                                influenciam diretamente o comportamento.
-
-                                O nutricionista trabalha com uma equipe de diversos profissionais, como psiquiatras,
-                                psicólogos, terapeutas, educadores físicos entre outros.</p>
-
-                    </div>
-                    <div class="col-12 col-sm-5 ">
-
-                        <figure>
-                            <img src="../img/nutricao_1.webp" alt="Imagem de um ambiente doméstico" class="img-fluid ">
-                        </figure>
-
-                    </div>
-                    </article>
-                </div>
-
+          </div>
+        </div>
+      </section>
+      <section>
+        <div class="container mt-4">
+          <div class="row text-justify">
+            <header>
+              <h5 class="fs-2">Nutrição</h5>
+              <div class="barra-texto"></div>
+            </header>
+            <div class="col-12 col-sm-7">
+              <p class="fs-5">
+                O nutricionista estabelece um plano de alimentação conforme as
+                necessidades do paciente que, muitas vezes vivencia um
+                adoecimento crônico ou uma condição física de aumento ou
+                diminuição significativa de peso. É ele quem vai estabelecer um
+                plano dietético que forneça os nutrientes necessários para um
+                funcionamento pleno do corpo. Uma dieta rica e balanceada pode
+                auxiliar o equilíbrio hormonal, o metabolismo, a recuperação e
+                estabilização de algumas funções neurológicas importantes,
+                fatores que influenciam diretamente o comportamento. O
+                nutricionista trabalha com uma equipe de diversos profissionais,
+                como psiquiatras, psicólogos, terapeutas, educadores físicos
+                entre outros.
+              </p>
             </div>
-            <div class="container-fluid my-5 info-container-2 text-justify">
-                <div class="container">
-                    <div class="row align-items-center">
-                        <div class="col-12 col-lg-6 nutricao-info">
-                        </div>
-                        <div class="col-12 col-lg-6 mt-5">
-                            <article>
-                                <cite>NUTRIÇÃO E PSICOLOGIA</cite>
-                                <p class="fs-5">O diálogo entre os profissionais da Psicologia e da Nutrição deve ser
-                                    realmente uma escuta interativa para que o paciente evolua efetivamente nas questões
-                                    que o levaram a buscar ajuda. A importância de se pensar juntos modos de lidar com
-                                    as dificuldades do paciente pode ser determinante para o sucesso do tratamento.
-
-                                    Nos encaminhamentos feitos por psicólogos aos nutricionistas, quanto mais clara
-                                    estiver descrita a situação do paciente, melhor será o prognóstico.</p>
-                            </article>
-                        </div>
-                    </div>
-                </div>
+            <div class="col-12 col-sm-5">
+              <figure>
+                <img
+                  src="../img/nutricao_1.webp"
+                  alt="Imagem de um ambiente doméstico"
+                  class="img-fluid"
+                />
+              </figure>
             </div>
-        </section>
-        <section>
-            <div class="container my-5 text text-justify">
-                <div class="row">
-                    <div class="col-12">
-                        <header>
-                            <h6 class="fs-4">A emoção afeta o corpo</h6>
-                            <div class="barra-texto"></div>
-                        </header>
-                        <p class="fs-5">Você certamente já notou que, quando está mais animado, tende a se movimentar
-                            mais e, no fim do dia, se sentir mais cansado, pois gastou mais energia. Por outro lado,
-                            quando se sente
-
-                            triste ou abatido, o corpo fica mais lento. Isso é um sinal claro dos efeitos das emoções
-                            sobre o funcionamento físico. Em alguns casos, essa alteração emocional leva à absorção de
-                            nutrientes de forma diferente. Alguém apático, deprimido ou estressado
-
-                            tende a ter um metabolismo mais baixo, o que leva ao ganho de peso. Já alguém com problemas
-                            de ansiedade fica muito mais ativo e tende a perder peso. Se esses problemas estiverem
-                            associados a outros, isso pode prejudicar a saúde da pessoa.</p>
-                    </div>
-                </div>
+          </div>
+        </div>
+        <div class="container-fluid my-5 info-container-2 text-justify">
+          <div class="container">
+            <div class="row align-items-center">
+              <div class="col-12 col-lg-6 nutricao-info"></div>
+              <div class="col-12 col-lg-6 mt-5">
+                <article>
+                  <cite>NUTRIÇÃO E PSICOLOGIA</cite>
+                  <p class="fs-5">
+                    O diálogo entre os profissionais da Psicologia e da Nutrição
+                    deve ser realmente uma escuta interativa para que o paciente
+                    evolua efetivamente nas questões que o levaram a buscar
+                    ajuda. A importância de se pensar juntos modos de lidar com
+                    as dificuldades do paciente pode ser determinante para o
+                    sucesso do tratamento. Nos encaminhamentos feitos por
+                    psicólogos aos nutricionistas, quanto mais clara estiver
+                    descrita a situação do paciente, melhor será o prognóstico.
+                  </p>
+                </article>
+              </div>
             </div>
-        </section>
-        <section>
-            <div class="container-fluid mt-5 mb-5">
-                <div class="row">
-                    <div id="banner-consulta" class="d-sm-flex p-lg-5 py-5 px-3 align-items-center ">
-                        <div class="col-12 col-sm-6 text-center">
-                            <h4 class="fw-light fs-2">Evite aglomarações, marque sua consulta agora!</h4>
-                        </div>
-                        <div class="col-12 col-sm-6 mt-4 mt-sm-0 text-center">
-                            <a href="#" class="btn-call "> <i class="fa-solid fa-circle-arrow-right"></i>
-                                Marque uma consulta</a>
-                        </div>
-                    </div>
-                </div>
+          </div>
+        </div>
+      </section>
+      <section>
+        <div class="container my-5 text text-justify">
+          <div class="row">
+            <div class="col-12">
+              <header>
+                <h6 class="fs-4">A emoção afeta o corpo</h6>
+                <div class="barra-texto"></div>
+              </header>
+              <p class="fs-5">
+                Você certamente já notou que, quando está mais animado, tende a
+                se movimentar mais e, no fim do dia, se sentir mais cansado,
+                pois gastou mais energia. Por outro lado, quando se sente triste
+                ou abatido, o corpo fica mais lento. Isso é um sinal claro dos
+                efeitos das emoções sobre o funcionamento físico. Em alguns
+                casos, essa alteração emocional leva à absorção de nutrientes de
+                forma diferente. Alguém apático, deprimido ou estressado tende a
+                ter um metabolismo mais baixo, o que leva ao ganho de peso. Já
+                alguém com problemas de ansiedade fica muito mais ativo e tende
+                a perder peso. Se esses problemas estiverem associados a outros,
+                isso pode prejudicar a saúde da pessoa.
+              </p>
             </div>
-        </section>
-        <footer>
-            <div class="container mb-0 mb-sm-5">
-                <div class="row">
-                    <div class="col-12 col-md-6 col-lg-4">
-                        <h3 class="fs-4">Clínica Refazer</h3>
-                    <ul>
-                        <li><a href="">Contato: (61)99292-8542</a></li>
-                        <li><a href="">Plantão Psicológico: (61)99292-8542</a></li>
-                        <li><a href="">Email: contato@clinicarefazer.com</a></li>
-                    </ul>
-                    </div>
-                    <div class="col-12 col-md-6 col-lg-4">
-                        <h3 class="fs-4">Psicologia</h3>
-                        <ul>
-                            <li>
-                            <a href="psicologia/plantao_psicologico.html">
-                            <i class="fa-solid fa-angle-right"></i>
-                            Plantão Psicológico</a></li>
-                            <li><a href="psicologia/psicoterapia.html">
-                                <i class="fa-solid fa-angle-right"></i>
-                                Psicoterapia</li></a>
-                            <li><a href="psicologia/autismo.html">
-                                <i class="fa-solid fa-angle-right"></i>
-                                Autismo</li></a>
-                            <li><a href="psicologia/avaliacao_psicologica.html">
-                                <i class="fa-solid fa-angle-right"></i>
-                                Avaliação Psicológica</a></li>
-                            <li><a href="psicologia/avaliacao_neuropsicologica.html">
-                                <i class="fa-solid fa-angle-right"></i>
-                                Avaliação Neuropsicológica</li></a>
-                            <li><a href="psicologia/reabilitacao_cognitiva.html">
-                                <i class="fa-solid fa-angle-right"></i>
-                                Reabilitação Cognitiva</li></a>
-                        </ul>
-                    </div>
-                    <div class="col-12 col-md-6 col-lg-4 text-white pb-4" id="call-footer">
-                        <h3 class="fs-4 mb-3">
-                            Precida de ajuda?
-                        </h3>
-                        <p class="mb-5">Não fique com dúvidas, ficaremos felizes com o seu contato!</p>
-
-                        <a href="" class="btn-call">Solicitar ajuda <i class="fa-solid fa-angle-right"></i></a>
-                    </div>
-                </div>
+          </div>
+        </div>
+      </section>
+      <section>
+        <div class="container-fluid mt-5 mb-5">
+          <div class="row">
+            <div
+              id="banner-consulta"
+              class="d-sm-flex p-lg-5 py-5 px-3 align-items-center"
+            >
+              <div class="col-12 col-sm-6 text-center">
+                <h4 class="fw-light fs-2">
+                  Evite aglomarações, marque sua consulta agora!
+                </h4>
+              </div>
+              <div class="col-12 col-sm-6 mt-4 mt-sm-0 text-center">
+                <a href="#" class="btn-call">
+                  <i class="fa-solid fa-circle-arrow-right"></i> Marque uma
+                  consulta</a
+                >
+              </div>
             </div>
-        </footer>
+          </div>
+        </div>
+      </section>
+      <footer>
+        <div class="container mb-0 mb-sm-5">
+          <div class="row">
+            <div class="col-12 col-md-6 col-lg-4">
+              <h3 class="fs-4">Clínica Refazer</h3>
+              <ul>
+                <li><a href="">Contato: (61)99292-8542</a></li>
+                <li><a href="">Plantão Psicológico: (61)99292-8542</a></li>
+                <li><a href="">Email: contato@clinicarefazer.com</a></li>
+              </ul>
+            </div>
+            <div class="col-12 col-md-6 col-lg-4">
+              <h3 class="fs-4">Psicologia</h3>
+              <ul>
+                <li>
+                  <a href="psicologia/plantao_psicologico.html">
+                    <i class="fa-solid fa-angle-right"></i>
+                    Plantão Psicológico</a
+                  >
+                </li>
+                <li>
+                  <a href="psicologia/psicoterapia.html">
+                    <i class="fa-solid fa-angle-right"></i>
+                    Psicoterapia</a
+                  >
+                </li>
+                <li>
+                  <a href="psicologia/autismo.html">
+                    <i class="fa-solid fa-angle-right"></i>
+                    Autismo</a
+                  >
+                </li>
+                <li>
+                  <a href="psicologia/avaliacao_psicologica.html">
+                    <i class="fa-solid fa-angle-right"></i>
+                    Avaliação Psicológica</a
+                  >
+                </li>
+                <li>
+                  <a href="psicologia/avaliacao_neuropsicologica.html">
+                    <i class="fa-solid fa-angle-right"></i>
+                    Avaliação Neuropsicológica</a
+                  >
+                </li>
+                <li>
+                  <a href="psicologia/reabilitacao_cognitiva.html">
+                    <i class="fa-solid fa-angle-right"></i>
+                    Reabilitação Cognitiva</a
+                  >
+                </li>
+              </ul>
+            </div>
+            <div
+              class="col-12 col-md-6 col-lg-4 text-white pb-4"
+              id="call-footer"
+            >
+              <h3 class="fs-4 mb-3">Precida de ajuda?</h3>
+              <p class="mb-5">
+                Não fique com dúvidas, ficaremos felizes com o seu contato!
+              </p>
 
+              <a href="" class="btn-call"
+                >Solicitar ajuda <i class="fa-solid fa-angle-right"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+      </footer>
     </main>
-    <div id="botoes-contato" class="animate__animated animate__fadeIn animate__delay-1s">
-
-        <a href=""><img class="d-block" src="img/whatsapp (1).png" alt="" width="58"></a>
-        <a href=""><img src="img/telephone.png" alt="" width="56"></a>
-
+    <div
+      id="botoes-contato"
+      class="animate__animated animate__fadeIn animate__delay-1s"
+    >
+      <a href=""
+        ><img class="d-block" src="img/whatsapp (1).png" alt="" width="58"
+      /></a>
+      <a href=""><img src="img/telephone.png" alt="" width="56" /></a>
     </div>
 
-
-
-
     <!-- Bootstrap5  -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
-    </script>
-
-</body>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
