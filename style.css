@@ -279,105 +279,117 @@ footer #call-footer a:hover {
   background-image: url('img/plantao_psicologico_2.webp');
   background-size: cover;
 }
+
 /* FIM PLANTÃO PSICOLÓGICO */
 
 /* PSICOTERAPIA */
 .psicoterapia-info-img {
-  height: 400px;
-  background-image: url('img/terapia_2.webp');
-  background-size: cover;
-  position: relative;
+    height: 400px;
+    background-image: url('img/terapia_2.webp');
+    background-size: cover;
+    position: relative;
 }
+
 .psicoterapia-info-img:hover {
-  bottom: 2px;
-  -webkit-box-shadow: 0px 0px 22px 3px rgba(0, 0, 0, 0.6);
-  box-shadow: 0px 0px 22px 3px rgba(0, 0, 0, 0.6);
-  transition: 1s;
+    bottom: 2px;
+    -webkit-box-shadow: 0px 0px 22px 3px rgba(0, 0, 0, 0.6);
+    box-shadow: 0px 0px 22px 3px rgba(0, 0, 0, 0.6);
+    transition: 1s;
 }
+
 /* FIM PSICOTERAPIA */
 
 /* AUTISMO */
 .autismo-info {
-  height: 400px;
-  background-image: url('img/autismo_2.webp');
-  background-repeat: no-repeat;
-  background-size: auto;
-  background-position: center;
-  position: relative;
+    height: 400px;
+    background-image: url('img/autismo_2.webp');
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: center;
+    position: relative;
 }
+
 .autismo-info:hover {
-  bottom: 2px;
-  -webkit-box-shadow: 0px 0px 22px 3px rgba(0, 0, 0, 0.6);
-  box-shadow: 0px 0px 22px 3px rgba(0, 0, 0, 0.6);
-  transition: 1s;
+    bottom: 2px;
+    -webkit-box-shadow: 0px 0px 22px 3px rgba(0, 0, 0, 0.6);
+    box-shadow: 0px 0px 22px 3px rgba(0, 0, 0, 0.6);
+    transition: 1s;
 }
+
 /* FIM AUTISMO */
 
 /* AVALIAÇÃO PSICOLÓGICA */
 .avaliacao-psicologica-info {
-  height: 400px;
-  background-image: url('img/avaliacao-psicologica_2.webp');
-  background-repeat: no-repeat;
-  background-size: auto;
-  background-position: center;
-  position: relative;
+    height: 400px;
+    background-image: url('img/avaliacao-psicologica_2.webp');
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: center;
+    position: relative;
 }
+
 .avaliacao-psicologica-info:hover {
-  bottom: 2px;
-  -webkit-box-shadow: 0px 0px 22px 3px rgba(0, 0, 0, 0.6);
-  box-shadow: 0px 0px 22px 3px rgba(0, 0, 0, 0.6);
-  transition: 1s;
+    bottom: 2px;
+    -webkit-box-shadow: 0px 0px 22px 3px rgba(0, 0, 0, 0.6);
+    box-shadow: 0px 0px 22px 3px rgba(0, 0, 0, 0.6);
+    transition: 1s;
 }
+
 /* FIM AVALIAÇÃO PSICOLÓGICA */
 
 /* AVALIAÇÃO NEUROPSICOLÓGICA */
 .avaliacao-neuropsicologica-info {
-  height: 400px;
-  background-image: url('img/avaliacao-neuropsicologica_2.webp');
-  background-repeat: no-repeat;
-  background-size: auto;
-  background-position: center;
-  position: relative;
+    height: 400px;
+    background-image: url('img/avaliacao-neuropsicologica_2.webp');
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: center;
+    position: relative;
 }
+
 .avaliacao-neuropsicologica-info:hover {
-  bottom: 2px;
-  -webkit-box-shadow: 0px 0px 22px 3px rgba(0, 0, 0, 0.6);
-  box-shadow: 0px 0px 22px 3px rgba(0, 0, 0, 0.6);
-  transition: 1s;
+    bottom: 2px;
+    -webkit-box-shadow: 0px 0px 22px 3px rgba(0, 0, 0, 0.6);
+    box-shadow: 0px 0px 22px 3px rgba(0, 0, 0, 0.6);
+    transition: 1s;
 }
+
 /* FIM AVALIAÇÃO NEUROPSICOLÓGICA */
 
 /* AVALIAÇÃO NEUROPSICOLÓGICA */
 .reabilitacao-cognitiva-info {
-  height: 400px;
-  background-image: url('img/reabilitacao-cognitiva_2.webp');
-  background-repeat: no-repeat;
-  background-size: auto;
-  background-position: center;
-  position: relative;
+    height: 400px;
+    background-image: url('img/reabilitacao-cognitiva_2.webp');
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: center;
+    position: relative;
 }
+
 .reabilitacao-cognitiva-info:hover {
-  bottom: 2px;
-  -webkit-box-shadow: 0px 0px 22px 3px rgba(0, 0, 0, 0.6);
-  box-shadow: 0px 0px 22px 3px rgba(0, 0, 0, 0.6);
-  transition: 1s;
+    bottom: 2px;
+    -webkit-box-shadow: 0px 0px 22px 3px rgba(0, 0, 0, 0.6);
+    box-shadow: 0px 0px 22px 3px rgba(0, 0, 0, 0.6);
+    transition: 1s;
 }
+
 /* FIM AVALIAÇÃO NEUROPSICOLÓGICA */
 
 /* NUTRIÇÃO*/
 .nutricao-info {
-  height: 400px;
-  background-image: url('img/reabilitacao-cognitiva_2.webp');
-  background-repeat: no-repeat;
-  background-size: auto;
-  background-position: center;
-  position: relative;
+    height: 400px;
+    background-image: url('img/reabilitacao-cognitiva_2.webp');
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: center;
+    position: relative;
 }
+
 .nutricao-info:hover {
-  bottom: 2px;
-  -webkit-box-shadow: 0px 0px 22px 3px rgba(0, 0, 0, 0.6);
-  box-shadow: 0px 0px 22px 3px rgba(0, 0, 0, 0.6);
-  transition: 1s;
+    bottom: 2px;
+    -webkit-box-shadow: 0px 0px 22px 3px rgba(0, 0, 0, 0.6);
+    box-shadow: 0px 0px 22px 3px rgba(0, 0, 0, 0.6);
+    transition: 1s;
 }
 
 /* FIM NUTRIÇÃO */
@@ -385,100 +397,241 @@ footer #call-footer a:hover {
 /* Psiquiatria*/
 
 .psiquiatria-info {
-  height: 400px;
-  background-image: url('img/psiquiatria.jpg');
-  background-repeat: no-repeat;
-  background-size: auto;
-  background-position: center;
-  position: relative;
+    height: 400px;
+    background-image: url('img/psiquiatria.jpg');
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: center;
+    position: relative;
 }
 
 .psiquiatria-info:hover {
-  bottom: 2px;
-  -webkit-box-shadow: 0px 0px 22px 3px rgba(0, 0, 0, 0.6);
-  box-shadow: 0px 0px 22px 3px rgba(0, 0, 0, 0.6);
-  transition: 1s;
+    bottom: 2px;
+    -webkit-box-shadow: 0px 0px 22px 3px rgba(0, 0, 0, 0.6);
+    box-shadow: 0px 0px 22px 3px rgba(0, 0, 0, 0.6);
+    transition: 1s;
 }
 
 /*Fim Psiquiatria*/
 
 /*Fonoaudiologia*/
 .fono-info {
-  height: 400px;
-  background-image: url('img/Fonoaudiologa.jpg');
-  background-repeat: no-repeat;
-  background-size: auto;
-  background-position: center;
-  position: relative;
+    height: 400px;
+    background-image: url('img/Fonoaudiologa.jpg');
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: center;
+    position: relative;
 }
 
 .fono-info:hover {
-  bottom: 2px;
-  -webkit-box-shadow: 0px 0px 22px 3px rgba(0, 0, 0, 0.6);
-  box-shadow: 0px 0px 22px 3px rgba(0, 0, 0, 0.6);
-  transition: 1s;
+    bottom: 2px;
+    -webkit-box-shadow: 0px 0px 22px 3px rgba(0, 0, 0, 0.6);
+    box-shadow: 0px 0px 22px 3px rgba(0, 0, 0, 0.6);
+    transition: 1s;
 }
 
 /*Fono fim*/
 
 /*Fisioterapia*/
 .fisio-info {
-  height: 400px;
-  background-image: url('img/Fisioterapeuta.jpg');
-  background-repeat: no-repeat;
-  background-size: auto;
-  background-position: center;
-  position: relative;
+    height: 400px;
+    background-image: url('img/Fisioterapeuta.jpg');
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: center;
+    position: relative;
 }
 
 .fisio-info:hover {
-  bottom: 2px;
-  -webkit-box-shadow: 0px 0px 22px 3px rgba(0, 0, 0, 0.6);
-  box-shadow: 0px 0px 22px 3px rgba(0, 0, 0, 0.6);
-  transition: 1s;
+    bottom: 2px;
+    -webkit-box-shadow: 0px 0px 22px 3px rgba(0, 0, 0, 0.6);
+    box-shadow: 0px 0px 22px 3px rgba(0, 0, 0, 0.6);
+    transition: 1s;
 }
+
 /*Fim Fisioterapia*/
 
 /*Cuidados Paleativos*/
 .paliativo-info {
-  height: 400px;
-  background-image: url('img/Paliativo.webp');
-  background-repeat: no-repeat;
-  background-size: auto;
-  background-position: center;
-  position: relative;
+    height: 400px;
+    background-image: url('img/Paliativo.webp');
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: center;
+    position: relative;
 }
 
 .paliativo-info:hover {
-  bottom: 2px;
-  -webkit-box-shadow: 0px 0px 22px 3px rgba(0, 0, 0, 0.6);
-  box-shadow: 0px 0px 22px 3px rgba(0, 0, 0, 0.6);
-  transition: 1s;
+    bottom: 2px;
+    -webkit-box-shadow: 0px 0px 22px 3px rgba(0, 0, 0, 0.6);
+    box-shadow: 0px 0px 22px 3px rgba(0, 0, 0, 0.6);
+    transition: 1s;
 }
+
 /*Fim Paleativo*/
 
 /*Terapeutico*/
 .terapeutico-info {
-  height: 400px;
-  background-image: url('img/acompanhamento-terapeutico.webp');
-  background-repeat: no-repeat;
-  background-size: auto;
-  background-position: center;
-  position: relative;
+    height: 400px;
+    background-image: url('img/acompanhamento-terapeutico.webp');
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: center;
+    position: relative;
 }
 
 .terapeutico-info:hover {
-  bottom: 2px;
-  -webkit-box-shadow: 0px 0px 22px 3px rgba(0, 0, 0, 0.6);
-  box-shadow: 0px 0px 22px 3px rgba(0, 0, 0, 0.6);
-  transition: 1s;
+    bottom: 2px;
+    -webkit-box-shadow: 0px 0px 22px 3px rgba(0, 0, 0, 0.6);
+    box-shadow: 0px 0px 22px 3px rgba(0, 0, 0, 0.6);
+    transition: 1s;
 }
+
 /*Fim Terapeutico*/
 
-@media all and (min-width: 370px) and (max-width: 530px) {
-  #banner p {
-    font-size: 1.3rem;
-  }
+/*Todas Especialidades*/
+.card {
+    height: 30vh;
+}
+
+.card-autismo:hover::before,
+.card-avaliacao:hover::before,
+.card-cognitiva:hover::before,
+.card-psicoterapia:hover::before,
+.card-neuro:hover::before,
+.card-psicologico:hover::before,
+.card-fono:hover::before,
+.card-fisio:hover::before,
+.card-nutri:hover::before,
+.card-psiquiatria:hover::before,
+.card-paliativo:hover::before,
+.card-terapeutico:hover::before {
+    transition: 500ms;
+    scale: 1.01;
+    filter: blur(0px);
+    color: #000;
+}
+
+.card-autismo:hover,
+.card-avaliacao:hover,
+.card-cognitiva:hover,
+.card-psicoterapia:hover,
+.card-neuro:hover,
+.card-psicologico:hover,
+.card-fono:hover,
+.card-fisio:hover,
+.card-nutri:hover,
+.card-psiquiatria:hover,
+.card-paliativo:hover,
+.card-terapeutico:hover {
+    color: #000;
+}
+
+
+.card-cognitiva,
+.card-neuro,
+.card-avaliacao,
+.card-autismo,
+.card-psicologico,
+.card-psicoterapia,
+.card-fono,
+.card-nutri,
+.card-psiquiatria,
+.card-fisio,
+.card-paliativo,
+.card-terapeutico {
+    position: relative;
+}
+
+.card-neuro::before,
+.card-cognitiva::before,
+.card-avaliacao::before,
+.card-autismo::before,
+.card-psicologico::before,
+.card-psicoterapia::before,
+.card-fono::before,
+.card-fisio::before,
+.card-nutri::before,
+.card-psiquiatria::before,
+.card-paliativo::before,
+.card-terapeutico::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    filter: blur(1.2px);
+    overflow: hidden;
+    object-fit: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.card-neuro::before{
+    background-image: url("img/avaliacao-neuropsicologica_1.webp");
+}
+
+.card-cognitiva::before {
+    background-image: url(img/reabilitacao-cognitiva_1.webp);
+}
+
+.card-avaliacao::before{
+    background-image: url("img/avaliacao-psicologica_1.webp");
+}
+
+.card-autismo::before{
+    background-image: url("img/autismo_1.webp");
+}
+
+.card-psicologico::before{
+    background-image: url("img/plantao_psicologico_1.webp");
+}
+
+.card-psicoterapia::before{
+    background-image: url("img/terapia_1.webp");
+}
+
+.card-fono::before{
+    background-image: url("img/Fonoaudiologia.jpg");
+}
+
+.card-fisio::before{
+    background-image: url(img/Fisioterapia.jpg);
+}
+
+.card-nutri::before{
+    background-image: url(img/nutricao_1.webp);
+}
+
+.card-psiquiatria::before{
+    background-image: url(img/psiquiatra.jpg);
+}
+
+.card-paliativo::before{
+    background-image: url(img/Paliativo.webp);
+}
+
+.card-terapeutico::before{
+    background-image: url(img/acompanhamento-terapeutico.webp);
+}
+
+.card h2 {
+    margin-top: auto;
+    position: relative;
+}
+
+.col a {
+    text-decoration: none;
+    color: #000;
+}
+
+/*Fim Todas especialides*/
+@media all and (min-width:370px) and (max-width:530px) {
+    #banner p {
+        font-size: 1.3rem;
+    }
 
   #botoes-contato {
     left: 84vw;
@@ -615,5 +768,5 @@ footer #call-footer a:hover {
 }
 
 .butao {
-  padding: 5px;
+    padding: 5px;
 }
