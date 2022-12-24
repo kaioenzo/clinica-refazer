@@ -412,6 +412,98 @@ transition: 1s;
 
 /* FIM NUTRIÇÃO */
 
+/* Psiquiatria*/
+
+.psiquiatria-info{
+    height: 400px;
+    background-image: url('img/psiquiatria.jpg');
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: center ;
+    position: relative;
+}
+
+.psiquiatria-info:hover{
+bottom: 2px;
+-webkit-box-shadow: 0px 0px 22px 3px rgba(0,0,0,0.6);
+box-shadow: 0px 0px 22px 3px rgba(0,0,0,0.6);
+transition: 1s;
+}
+
+/*Fim Psiquiatria*/
+
+/*Fonoaudiologia*/
+.fono-info{
+    height: 400px;
+    background-image: url('img/Fonoaudiologa.jpg');
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: center ;
+    position: relative;
+}
+
+.fono-info:hover{
+bottom: 2px;
+-webkit-box-shadow: 0px 0px 22px 3px rgba(0,0,0,0.6);
+box-shadow: 0px 0px 22px 3px rgba(0,0,0,0.6);
+transition: 1s;
+}
+
+/*Fono fim*/
+
+/*Fisioterapia*/
+.fisio-info{
+    height: 400px;
+    background-image: url('img/Fisioterapeuta.jpg');
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: center ;
+    position: relative;
+}
+
+.fisio-info:hover{
+bottom: 2px;
+-webkit-box-shadow: 0px 0px 22px 3px rgba(0,0,0,0.6);
+box-shadow: 0px 0px 22px 3px rgba(0,0,0,0.6);
+transition: 1s;
+}
+/*Fim Fisioterapia*/
+
+/*Cuidados Paleativos*/
+.paliativo-info{
+    height: 400px;
+    background-image: url('img/Paliativo.webp');
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: center ;
+    position: relative;
+}
+
+.paliativo-info:hover{
+bottom: 2px;
+-webkit-box-shadow: 0px 0px 22px 3px rgba(0,0,0,0.6);
+box-shadow: 0px 0px 22px 3px rgba(0,0,0,0.6);
+transition: 1s;
+}
+/*Fim Paleativo*/
+
+/*Terapeutico*/
+.terapeutico-info{
+    height: 400px;
+    background-image: url('img/acompanhamento-terapeutico.webp');
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: center ;
+    position: relative;
+}
+
+.terapeutico-info:hover{
+bottom: 2px;
+-webkit-box-shadow: 0px 0px 22px 3px rgba(0,0,0,0.6);
+box-shadow: 0px 0px 22px 3px rgba(0,0,0,0.6);
+transition: 1s;
+}
+/*Fim Terapeutico*/
 
 @media all and (min-width:370px) and (max-width:530px) {
     #banner p {
